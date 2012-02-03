@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>
+         Spanish Cognates
+      </title>
+   
+			<script src="cardBox.js" type="text/javascript"></script>
+    	<link rel = "stylesheet" type = "text/css" href = "textBoxes.css" />
+   
+   </head>
+
+   <body onLoad="initPage(15)">
+   <div class="wrapper">
+   
+   <div id="headerBar">
+
+     	<a href="StudyPlan.html" id="topLeftLink" class="real">Study Plan</a>
+     	<a href="Vocabulary.html" id="topRightLink" class="real">Vocabulary</a>
+     	<h1>Cognates S</h1>
+   	
+   	<table id="directionTable">
+   		<tr>
+   		<tbody class="langBack">
+   			<td class="dir"> <h2>English</h2> </td>
+   			<td class="dir">
+   				<button type="button" id="switch" onclick = "flipDeck()" tabindex="6">
+   					<div id="point"><img src="rArrow" name="Arrow" alt="to" style="vertical-align:middle" /></div>
+   				</button> </td>
+   			<td class="dir"> <h2>Spanish</h2> </td>
+   		</tbody>
+   		</tr>
+   	</table>
+   	
+   	 <a href="javascript:goSpeech(2)" id="adjective" class="speech">otr</a> |
+ 	   <a href="javascript:goSpeech(1)" id="noun" class="speech">n</a> |
+     <a href="javascript:goSpeech(3)" id="verb" class="speech">vrb</a>
+ 
+   </div> <!--End headerBar-->
+
+    <div id="bubbleDiv">
+  	 <img src="grayBubble.png" alt="-" name="adjBubble" class="bubbles">
+ 	 	 <img src="grayBubble.png" alt="-" name="nBubble" class="bubbles">
+ 	   <img src="grayBubble.png" alt="-" name="vrbBubble" class="bubbles">
+ 	  </div>
+
+   <div id="learningPad">
+    <form action = "">
+    	<fieldset>
+    	
+				<table id="padTable">
+				 <tbody class="pads">
+					<tr>
+						<td class="pads" id="frontSide">
+            	English:
+            </td>
+            <td class="pads" id="frontWord">
+            	...loading
+            </td>
+          </tr>
+          <tr>
+          	<td class="pads" id="userSide"> <!-- was id="userGuess" (label) -->
+            	Spanish:
+            </td>    	
+            <td class="pads">
+            	<input type="text" autocomplete="off" id="userAnswer" onKeyPress="return disableEnterKey(event)" />
+            </td>
+          </tr>
+          <tr>
+            <td class="pads" id="flipSide">  
+               Answer:
+            </td>
+            <td class="pads" id="flipAnswer">
+            	 
+            </td>
+          </tr>
+         </tbody>
+        </table>
+        
+        <p id="speedButtons">
+          <button type = "button"
+          	onclick = "checkCard()">
+            Check
+          </button>
+          <button type = "button"
+            onclick = "pullCard()" id="newWord">
+            New Word
+          </button>
+        </p>
+        
+        <div id = "cardsLeft">
+          Remaining:
+        </div>
+     
+     		<div id = "attempts">
+        	Attempts: +0/-0
+        </div>
+        
+ 			</fieldset>
+    </form>
+     
+   </div> <!--End learningPad-->
+   
+
+	 <div id="peekBelow">  	
+
+ <!-- 			<a href="home.html" id="homelink" tabindex="7">Homepage</a>
+ -->
+ 		<button type = "button" id="doneButton" class="switchVisButton" onclick="switchVis()" style="clear:both;" tabindex="4">
+        Hide List
+    </button>
+    
+    <center>
+    <div id="answerPad">
+    <table id="answerTable" class="answerTable" style="margin: 0 auto"> <!-- style="float:left;"> -->
+  		<tr><td>Firefox rocks!</td></tr>
+  	</table>
+  	</div>
+  	</center>
+
+   </div> <!--End peekBelow-->
+   
+   <!--The Push-->
+   <div class="push"></div>
+   
+   </div> <!--End Wrapper-->
+   
+   
+   <div class="footer">
+    
+      <div id="navBottom">
+      
+  		<button type="button" id="showButton" class="switchVisButton" onclick="switchVis()" tabindex="5">
+         Show List
+      </button>
+
+      <div id="similar">
+        <a href="Acognates.html" class="related">A</a> | 
+        <a href="Bcognates.html" class="related">B</a> | 
+        <a href="Ccognates.html" class="related">C</a> | 
+        <a href="Dcognates.html" class="related">D</a> | 
+        <a href="Ecognates.html" class="related">E</a> | 
+        <a href="Fcognates.html" class="related">F</a> | 
+        <a href="Gcognates.html" class="related">G</a> | 
+        <a href="Gcognates.html" class="related">H</a> | 
+        <a href="Icognates.html" class="related">I</a> |
+        <a href="JKLcognates.html" class="related">JKL</a> |
+        <a href="MNOcognates.html" class="related">MNO</a> |
+        <a href="Pcognates.html" class="related">P</a> |
+        <a href="QRcognates.html" class="related">QR</a> |
+        <a href="Scognates.html" id="home" class="related">S</a> |
+        <a href="TUVZcognates.html" class="related">TUVZ</a>
+      </div>
+      
+      </div>    
+   </div> <!--End footer-->
+   </body>
+</html>
