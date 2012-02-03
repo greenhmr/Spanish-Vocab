@@ -1,0 +1,271 @@
+
+   * {
+    margin: 0;
+   }
+    
+   html, body {
+    height: 100%;
+   }
+    
+   .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -6em;
+   }
+   
+   .footer, .push {
+    height: 4em;
+   }
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+h2 {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+fieldset {
+  width: 20em;
+  height: 10em%;
+  background-color: #EEEEFF;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif, Arial, Helvetica;
+  padding: 10px;
+}
+
+button {
+	margin-right: 4px;
+}
+      
+input {
+  width: 12em;
+  text-align: left;
+  font-size: 16px;
+} 
+
+label {
+  font-weight: normal;
+  text-align: left;
+}
+
+td {
+	text-align: left;
+	height: 15px;
+	padding-right: 60px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	border: 1px solid cornflowerblue;
+}
+
+ul {
+	margin-left: 20px;
+}
+
+#headerBar {
+	display: block;
+	background-color: #EEEEFF;
+  text-align: center;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+	border-color: gray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 6px;
+	padding-left: 6px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#point {
+	vertical-align: middle;
+}
+
+#learningPad {
+	padding-top: 0em; 
+	padding-bottom: 3em;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+#padTable {
+	border-collapse: collapse;
+	background-image: none;
+	background-color: none;
+}
+
+#speedButtons {
+	padding-bottom: 16px;
+	padding-top: 16px;
+	padding-left: 2px;
+}
+
+#peekBelow {
+	padding-bottom: 2.2em;
+}
+
+#directionTable {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	border: 0px;
+}
+
+#answerPad {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#answerTable {
+	margin-left: auto;
+  margin-right: auto;
+	border-collapse: collapse;
+	font-family: sans-serif, Arial, Helvetica;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 110%;
+}
+
+tbody {
+	background-image: none;
+	background-color: #EEEEFF;
+}
+
+#navBottom {
+	background-color: #EEEEFF;
+	height: 100%;
+	border-style: solid;
+	border-width: 1px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+	border-color: gray;
+	padding: 15px;
+	text-align: center;
+}
+
+#switch {
+	vertical-align: middle;
+ 	padding-left: 4px;
+ 	padding-right: 4px;
+ 	padding-top: 2px;
+ 	padding-bottom: 2px;
+ 	margin-left: 6px;
+ 	margin-right: 7px;
+}
+
+.switchVisButton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: clear:both;
+}
+
+.langBack {
+	background-image: none;
+	background-color: none;
+}
+
+td.dir {
+	height: 5px;
+	width: 30px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	border-collapse:collapse;
+}
+
+tbody.pads {
+	border-collapse: collapse;
+	background-image: none;
+	background-color: none;
+	width: 95%;
+}
+
+td.pads {
+	border: 0px;
+	padding-right: .5em;
+	padding-left: 0em;
+	padding-top: 0em;
+	padding-bottom: .1em;
+}
+
+a.speech:link {color:#666; text-decoration:none}
+a.speech:hover {color:#000;}
+a.speech:active {color:#008000;}
+a.speech:visited {color:#666; text-decoration:none}
+
+a.activeJspeech:link {color:#000;}
+a.activeJspeech:hover {color:#000;}
+a.activeJspeech:active {color:#000;}
+a.activeJspeech:visited {color:#000;}
+
+a.real {
+	line-height: 20px;
+}
+
+a.real:link {color: royalblue}
+a.real:visited {color: royalblue;}
+a.real:active {color: red;}
+a.real:hover {color: green;}
+
+a.related:link {color: royalblue}
+a.related:visited {color: #800080;}
+a.related:active {color: red;}
+a.related:hover {color: green;}
+
+#bubbleDiv {
+	width: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	padding-top: 2px;
+}
+
+.bubbles {
+	position: relative;
+	left: 8px;
+}
+
+#topLeftLink {
+	float: left;	
+}
+
+#topRightLink {
+	float: right;
+}
+
+#frontWord {
+	padding-left: .1em;
+}
+
+#flipAnswer {
+	padding-left: .22em;
+}
+
+#similar {
+	text-align: center;
+	line-height: 40px;
+}
+
+#rightPic {
+	border: none;
+	width: 10px;
+}
